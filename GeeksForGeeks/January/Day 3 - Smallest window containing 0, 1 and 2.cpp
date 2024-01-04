@@ -2,7 +2,6 @@
 // TC: O(N)
 // SC: O(N)
 
-
 class Solution {
   public:
     int smallestSubstring(string S) {

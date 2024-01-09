@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/range-sum-of-bst/
-//T.C : O(n)
-//S.C : O(1)
+// T.C : O(n)
+// S.C : O(1)
 
 class Solution {
 public:

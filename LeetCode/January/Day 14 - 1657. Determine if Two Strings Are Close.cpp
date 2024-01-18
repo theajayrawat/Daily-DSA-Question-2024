@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/determine-if-two-strings-are-close/
-// SC: O(NLogN)
-// TC: O(N)
+// TC: O(NLogN)
+// SC: O(N)
 
 class Solution {
 public:

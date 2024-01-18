@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/insert-delete-getrandom-o1/
-// SC: O(1)
 // TC: O(1)
+// SC: O(1)
 
 class RandomizedSet {
 public:

@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/sequence-of-sequence1155/1
-// O(M*N)
-// O(M*N)
+// TC: O(M*N)
+// SC: O(M*N)
 
 class Solution{
 public:

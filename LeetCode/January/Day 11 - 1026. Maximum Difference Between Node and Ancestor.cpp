@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
-// SC: O(N)
 // TC: O(N)
+// SC: O(N)
 
 class Solution {
 public:

@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/find-players-with-zero-or-one-losses/
-// SC: O(N)
 // TC: O(N)
+// SC: O(N)
 
 class Solution {
 public:

@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/remove-k-digits/1
-// SC: O(N)
 // TC: O(N)
+// SC: O(N)
 
 class Solution {
   public:

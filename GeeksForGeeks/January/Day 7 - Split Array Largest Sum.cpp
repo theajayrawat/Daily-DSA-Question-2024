@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/split-array-largest-sum--141634/1
-// SC: O(N*log(sum(arr[])))
-// TC: O(1)
+// TC: O(N*log(sum(arr[])))
+// SC: O(1)
 
 class Solution {
   public:

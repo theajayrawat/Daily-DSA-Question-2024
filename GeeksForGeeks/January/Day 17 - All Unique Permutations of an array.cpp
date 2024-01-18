@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/all-unique-permutations-of-an-array/1
-// O(N!)
-// O(N)
+// TC: O(N!)
+// SC: O(N)
 
 class Solution {
   public:

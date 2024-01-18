@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/find-duplicate-rows-in-a-binary-matrix/1
-// SC: O(N)
-// TC: O(N) 
+// TC: O(N)
+// SC: O(N) 
 
 class Solution
 {   

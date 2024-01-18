@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/unique-number-of-occurrences/
-// SC: O(N)
 // TC: O(N)
+// SC: O(N)
 
 class Solution {
 public:

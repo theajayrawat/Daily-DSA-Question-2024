@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/longest-subarray-with-sum-divisible-by-k1259/1
-// SC: O(N)
 // TC: O(N)
+// SC: O(N)
 
 class Solution{
 public:	

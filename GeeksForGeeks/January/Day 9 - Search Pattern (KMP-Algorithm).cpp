@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/search-pattern0205/1
-// SC: O(N+M)
-// TC: O(M)
+// TC: O(N+M)
+// SC: O(M)
 
 class Solution
 {

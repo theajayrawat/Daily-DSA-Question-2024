@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/determine-if-string-halves-are-alike
-// SC: O(N)
-// TC: O(1)
+// TC: O(N)
+// SC: O(1)
 
 class Solution {
 public:

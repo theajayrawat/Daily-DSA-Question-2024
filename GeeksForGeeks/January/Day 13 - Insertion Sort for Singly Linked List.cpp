@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/insertion-sort-for-singly-linked-list/1
-// SC: O(N^2)
-// TC: O(1) 
+// TC: O(N^2)
+// SC: O(1) 
 
 /*Link list node
 struct Node {

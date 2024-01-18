@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/grinding-geek/1
-// SC: O(N*M)
-// TC: O(N*M) 
+// TC: O(N*M)
+// SC: O(N*M) 
 
 class Solution{
     public:

@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/techfest-and-the-queue1044/1
-// SC: O((b-a)*sqrt(b)*log(b))
-// TC: O(1)
+// TC: O((b-a)*sqrt(b)*log(b))
+// SC: O(1)
 
 class Solution {
 public:

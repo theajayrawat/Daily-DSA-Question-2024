@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
-// SC: O(N)
 // TC: O(N)
+// SC: O(N)
 
 class Solution {
 public:

@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/merge-2-sorted-linked-list-in-reverse-order/1
-// SC: O(N+M)
-// TC: O(1)
+// TC: O(N+M)
+// SC: O(1)
 
 /*
 struct Node

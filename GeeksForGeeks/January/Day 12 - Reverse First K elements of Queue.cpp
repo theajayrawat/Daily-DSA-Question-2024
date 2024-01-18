@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1
-// SC: O(N)
 // TC: O(N)
+// SC: O(N)
 
 class Solution
 {

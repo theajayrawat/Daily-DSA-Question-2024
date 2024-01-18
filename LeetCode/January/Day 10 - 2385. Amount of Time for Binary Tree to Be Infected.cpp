@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
-// SC: O(N)
 // TC: O(N)
+// SC: O(N)
 
 /**
  * Definition for a binary tree node.

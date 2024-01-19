@@ -1,6 +1,7 @@
 // https://www.geeksforgeeks.org/problems/water-the-plants--170646/1
 //T.C : O(nlogn)
 //S.C : O(n)
+
 class Solution{
     public:
     int min_sprinklers(int gallery[], int n) {

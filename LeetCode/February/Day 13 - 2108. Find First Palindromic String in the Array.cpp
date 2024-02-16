@@ -1,4 +1,4 @@
-// hhttps://leetcode.com/problems/find-first-palindromic-string-in-the-array/
+// https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
 // TC: O(N*M)
 // SC: O(M)
 

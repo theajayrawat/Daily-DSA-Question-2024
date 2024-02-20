@@ -1,26 +1,33 @@
 // https://www.geeksforgeeks.org/problems/critical-connections/1
-// TC: O(N)
-// SC: O(N)
+// TC: O(V+E+ElogE)
+// SC: O(V+E)
 
 class Solution {
 public:
-    Node* cloneGraph(Node* node) {  
-        if(!node) return NULL;
-        unordered_map<Node*, Node*> mp;
-        queue<Node*> q; 
-        q.push(node);         
-        mp[node] = new Node(node->val);
-        while(!q.empty()){
-            Node* tmp = q.front();
-            q.pop();
-            for(auto &x : tmp->neighbors){
-                if(!mp.count(x)){
-                    mp[x] = new Node(x->val);
-                    q.push(x); 
-                }
-                mp[x]->neighbors.push_back(mp[tmp]);
+    void dfs(int node,vector<int> adj[],vector<vector<int>> &ans,vector<int> &lowtime,int &timer,int parent){
+        lowtime[node]=timer;
+        int parentTime=timer;
+        timer++;
+        for(auto x:adj[node]){
+            if(x==parent)continue;
+            else if(!lowtime[x]){
+                dfs(x,adj,ans,lowtime,timer,node);
+            }
+            lowtime[node]=min(lowtime[node],lowtime[x]);
+            if(parentTime<lowtime[x]){
+                if(node<x)ans.push_back({node,x});
+                else ans.push_back({x,node});
             }
         }
-        return mp[node];
     }
-};
+	vector<vector<int>>criticalConnections(int v, vector<int> adj[]){
+	    // Code here
+	    vector<vector<int>> ans;
+	    int timer=1;
+	    vector<int> lowtime(v,0);
+	    dfs(0,adj,ans,lowtime,timer,-1);
+	    sort(ans.begin(),ans.end());
+	    return ans;
+	}
+
+}
